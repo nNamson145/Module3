@@ -3,10 +3,17 @@
 *.PNG filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.JPG filter=lfs diff=lfs merge=lfs -text
-
 # Quản lý các tệp META (Unity metadata) bằng Git LFS
 *.META filter=lfs diff=lfs merge=lfs -text
-
 # Quản lý tệp C# code nếu cần (mặc dù thường không dùng Git LFS cho mã nguồn)
 *.cs filter=lfs diff=lfs merge=lfs -text
-
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.anim filter=lfs diff=lfs merge=lfs -text
+*.prefab filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
