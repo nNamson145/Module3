@@ -15,6 +15,7 @@ MonoBehaviour:
   weaponName: Pistol
   icon: {fileID: 21300000, guid: 2a4feca74affc244982f0052f6f73c66, type: 3}
   prefab: {fileID: 278000409325051556, guid: 4c2584f857e471347a22f9506c49307c, type: 3}
+  bulletPrefab: {fileID: 7687287765485545651, guid: e5d373c0aef57514d9b94249f5921895, type: 3}
   fireRate: 1
   maxAmmo: 10
   reloadTime: 2
